@@ -13,7 +13,9 @@ recognition.onresult=function (event){
         Webcam.attach( '#camera' );
         setTimeout(function(){
             take_selfie()
+            save()
         },5000);
+    
     }
 }
 function speak(){
